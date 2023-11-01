@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "Decentralized_Bank": {
+      "main": "src/Decentralized_Bank/main.mo",
+      "type": "motoko"
+    },
+    "Decentralized_Bank_assets": {
+      "dependencies": [
+        "Decentralized_Bank"
+      ],
+      "frontend": {
+        "entrypoint": "src/Decentralized_Bank_assets/src/index.html"
+      },
+      "source": [
+        "src/Decentralized_Bank_assets/assets",
+        "dist/Decentralized_Bank_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.9.3",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
