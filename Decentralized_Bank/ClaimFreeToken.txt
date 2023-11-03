@@ -1,0 +1,62 @@
+Yarattıklarımızı canlı internete dağıtma vakti geldi!
+Bunun için tokenlere ihtiyacımız var 
+Tokenleri almanın 3-4 farklı yolu olsada Dfinite, github hesabı 90 gün ve üzeri 
+süre önce açılmış kişilere ücretsiz olarak $20 değerinde crypto token vermektedir
+(çünkü biz onların minik developerları :)
+
+ancak deploy ederken çok dikkatli olmalıyız Cycle'larımızı hızlıca bitirirsek
+cebimizde para kalmaz ve web3.0'da parasız hiç bir şey yapılmaz :(
+
+https://anv4y-qiaaa-aaaal-qaqxq-cai.ic0.app
+
+https://smartcontracts.org/docs/current/developer-docs/quickstart/cycles-faucet
+
+NOT: YOUTUBE'DAN NASILYAPILDIĞINI İZLEYEBİLİRSİNİZ
+YADA AŞAĞIDAKİ ADIMLARI TAKİP EDİN:
+
+cüdanınızı falan oluşturcaksınız zaten siteden cüzdan balance'ını falan görebilirsin
+cycles wallet!
+
+cycle wallet ex forosuna bak 
+Network Nervous System
+
+1. Go to this https://anv4y-qiaaa-aaaal-qaqxq-cai.ic0.app 
+2. Press request cycles and connect to your discord
+3. Go to #cycles-faucet in discord
+4. Tell them you want to request for 20T cycles for development
+5. Check your private message after some time, complete the survey and inform domwoe.
+6. Copy the coupon code they sent you
+7. In Terminal, cd ic-projects
+8. cd dbank
+9. $ dfx wallet --network ic redeem-faucet-coupon <your coupon-code>
+10. $ dfx wallet --network=ic balance
+
+
+cüzdanımızı aldıktan sonra:
+1.dfx start
+2.split terminal
+3.deploy --network ic
+4.dfx canister --network ic id Decentralized_Bank_assets
+
+5.tarayıcını aç:
+http://<your_canister_id>.raw.ic0.app
+
+
+şimdi site yayınlandı ve her işlem yapıldığında cüzdadanızdan Terra düşecektir.
+1 işlem yapıp cüzdanını kontrol et bakalım.
+
+
+https://coinmarketcap.com/rankings/exchanges/
+
+https://www.coingecko.com/en/exchanges 
+
+yakala bakalım tokenleri :)
+
+
+ÖNEMLİ: COİNBASE'DE QUİZ YAP BİŞEYLER KAZAN !
+ICP AL ICP İYİ :P
+send/receive to NNP wallet ordanda Canısters ıd yapıştır gitsin ve Cycle walletine token gelir harca bakalım CYCLE MORE CYCLE <3
+
+
+
+
